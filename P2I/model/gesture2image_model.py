@@ -175,7 +175,7 @@ class Gesture2Image(BaseModel):
             imgs.append(util.tensor2im(img))
         imgs = np.concatenate(imgs,1)
         imgs = Image.fromarray(imgs)
-        imgs.save('/content/Global-Flow-Local-Attention/result/res.jpg')
+        imgs.save('res.jpg')
         # """Return visualization images"""
         # visual_ret = OrderedDict()
         # for name in self.visual_names:

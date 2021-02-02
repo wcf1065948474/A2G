@@ -1,7 +1,5 @@
 import os.path
 from data.base_dataset import BaseDataset
-from data.image_folder import make_grouped_dataset, check_path_valid
-from data.keypoint2img import interpPoints, drawEdge
 import pandas as pd
 import numpy as np
 import torch
